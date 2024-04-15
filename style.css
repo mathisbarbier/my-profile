@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mathis Barbier's Profile</title>
+  <meta name="description" content="Discover Mathis Barbier's profile - an aspiring UX/UI Designer with a passion for motorbikes. Connect with him on LinkedIn and Twitter.">
+  <meta charset="UTF-8">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      color: #343a40;
+      text-align: center;
+      margin-top: 20px;
+    }
+    h2 {
+      color: #007bff;
+      margin-top: 30px;
+    }
+    p {
+      color: #6c757d;
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin-top: 10px;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .image-container {
+      text-align: center;
+      margin-top: 30px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .social-links {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .social-links a {
+      display: inline-block;
+      margin: 0 10px;
+    }
+    .contact-form {
+      margin-top: 50px;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ced4da;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    .contact-form input[type="submit"] {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 15px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s;
+    }
+    .contact-form input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Hello, I'm Mathis Barbier</h1>
+
+<p>I am a student at Audencia Business School, currently pursuing my passion for UX/UI Design. When I'm not crafting delightful digital experiences, you'll find me exploring the open road on my trusty motorbike, embracing the thrill of adventure.</p>
+
+<h2>UX/UI Design</h2>
+<p>With a keen eye for detail and a love for creativity, I strive to design user interfaces that not only look stunning but also provide seamless and intuitive experiences for users.</p>
+
+<div class="image-container">
+  <img src="ux_ui_design.jpg" alt="UX/UI Design">
+</div>
+
+<h2>Motorbikes 🏍️</h2>
+<p>Motorbikes aren't just a mode of transportation for me; they represent freedom, adrenaline, and a sense of adventure. Riding through winding roads and picturesque landscapes is my ultimate form of relaxation.</p>
+
+<div class="image-container">
+  <img src="motorbike.jpg" alt="Motorbike">
+</div>
+
+<h2>Follow me</h2>
+<div class="social-links">
+  <a href="#" target="_blank">LinkedIn</a>
+  <a href="#" target="_blank">Twitter</a>
+</div>
+
+<h2>Contact Me</h2>
+<div class="contact-form">
+  <form action="#" method="post">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+    <input type="submit" value="Send Message">
+  </form>
+</div>
+
+</body>
+</html>
